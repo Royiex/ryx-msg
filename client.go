@@ -11,6 +11,7 @@ import (
 
 var sendstr string = ""
 var chatheight int = 1
+var focus string = "chats"
 // func drawLogin(ap *ansipixels.AnsiPixels) {
 //	ap.ClearScreen()
 //	ap.DrawSquareBox(0, 0, ap.W, ap.H)
@@ -90,6 +91,8 @@ func main() {
 			if input[0] == 3  || input[0] == 17 {
 				break
 			}
+
+			if focus = ""
 			if input[0] == 127 {
 				if(len(sendstr)>0) {
 					sendstr = sendstr[:len(sendstr)-1]
